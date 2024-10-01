@@ -1,0 +1,67 @@
+{
+    "objects": [
+        {
+            "name": "Suzanne",
+            "shader": "Material_01"
+        }
+    ],
+    "shaders": [
+        {
+            "name": "Material_01",
+            "Is Opaque": true,
+            "parameters": {
+                "Anisotropy Strength": 0.0,
+                "Clear Coat Color": {
+                    "r": 150.0,
+                    "g": 255.0,
+                    "b": 10.0,
+                    "a": 255.0
+                },
+                "Coat Amount": 0.4,
+                "Coat Roughness Strength": 0.0,
+                "Use Coat Normal Map": false,
+                "Use Diffuse Map": true,
+                "Diffuse Map": {
+                    "name": "base.png",
+                    "index": 0
+                },
+                "Emissive Stregth": 1.0,
+                "Fuzz Roughenss": 0.19999999999999996,
+                "Fuzz Color": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 255.0
+                },
+                "Use Metalness Map": true,
+                "Metalness Map": {
+                    "name": "metalness.png",
+                    "index": 2
+                },
+                "Metalness Strength": 0.0,
+                "Invert Metalness Map": false,
+                "Use Normal Map": true,
+                "Normal Map": {
+                    "name": "normal.png",
+                    "index": 3
+                },
+                "Normal Map Strength": 30.0,
+                "Use Roughness Map": true,
+                "Roughness Map": {
+                    "name": "roughness.png",
+                    "index": 4
+                },
+                "Roughness Strength": 0.0,
+                "Invert Roughness Map": false,
+                "Sheen Roughness": 0.19999999999999996,
+                "Sheen Color": {
+                    "r": 100.0,
+                    "g": 20.0,
+                    "b": 80.0,
+                    "a": 255.0
+                },
+                "Refraction": 1.6
+            }
+        }
+    ]
+}
